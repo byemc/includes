@@ -1,0 +1,67 @@
+---
+---
+
+$body-fonts: Rubik, sans-serif;
+$heading-fonts: "Roboto Flex", serif;
+
+header {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5em;
+    a#sitetitle {
+        font-weight: bold;
+        color: #fff;
+        animation: slight-fade-color 20s infinite linear;
+    }
+    span.currenturi {
+        color: rgb(149, 235, 235);
+    }
+    nav {
+        display: inline-block;
+        margin-left: 1rem;
+        a {
+            color: rgb(221, 221, 221);
+            text-decoration: none;
+            &:hover {
+                color: rgb(149, 235, 235);
+            }
+        }
+
+}
+}
+
+@keyframes slight-fade-color {
+    0% {
+        color: rgb(212, 181, 181);
+    }
+    10% {
+        color: rgb(218, 206, 166);
+    }
+    20% {
+        color: rgb(197, 226, 164);
+    }
+    30% {
+        color: rgb(166, 218, 182);
+    }
+    40% {
+        color: rgb(181, 208, 212);
+    }
+    50% {
+        color: rgb(166, 188, 218);
+    }
+    60% {
+        color: rgb(158, 146, 212);
+    }
+    70% {
+        color: rgb(214, 166, 218);
+    }
+    80% {
+        color: rgb(212, 181, 181);
+    }
+    90% {
+        color: rgb(218, 206, 166);
+    }
+    100% {
+        color: rgb(221, 221, 221);
+    }
+}
