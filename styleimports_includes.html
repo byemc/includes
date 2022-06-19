@@ -9,36 +9,70 @@
 
 
 <style>
-      
-header {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    font-size: 1.5em;
 
-    font-family: Rubik, sans-serif;
+body {
+    margin: 0;
 }
 
-header span span.currenturi {
+footer {
+font-family: "Roboto Flex",serif;
+color: #d4b5b5;
+text-align: center;
+padding-top: 50px;
+animation: slight-fade-color 20s infinite linear;
+}
+
+footer p.sociallinks img.thirdlogo {
+height: 1em;
+float: none;
+display: inline;
+}
+
+footer p.sociallinks a {
+padding-right: 0.2em;
+display: inline;
+}
+
+header#globalsiteversion {
+    padding: 8px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-size: 30px;
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0,0,0) 75%, rgba(0, 0, 0, 0) 100%);
+    color: ghostwhite;
+    font-family: Rubik, sans-serif;
+    display: block;
+}
+
+header#globalsiteversion div.container {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    width:75%;
+    margin: 0 auto;
+}
+
+header#globalsiteversion span span.currenturi {
     color: rgb(149, 235, 235);
 }
 
-header a#sitetitle {
+header#globalsiteversion a#sitetitle {
     font-weight: bold;
     color: #fff;
     animation: slight-fade-color 20s infinite linear;
 }
 
-header nav {
+header#globalsiteversion nav {
     display: inline-block;
     margin-left: 1rem;
 }
 
-header nav a {
+header#globalsiteversion nav a {
     color: rgb(221, 221, 221);
     text-decoration: none;
 }
 
-header nav a:hover {
+header#globalsiteversion nav a:hover {
     color: rgb(149, 235, 235);
 }
 
